@@ -52,20 +52,7 @@ const Navbar = ({ darkMode, setDarkMode }) => {
           <NavLink href="#education">Education</NavLink>
         </NavItems>
 
-        {/* <button
-          onClick={() => setDarkMode((prev) => !prev)}
-          style={{
-            background: "none",
-            border: `2px solid ${theme.text}`,
-            color: theme.text,
-            padding: "6px 12px",
-            borderRadius: "20px",
-            cursor: "pointer",
-            marginLeft: "20px",
-          }}
-        >
-          {darkMode ? "☀️ Light" : "🌙 Dark"}
-        </button> */}
+        
 
         <ButtonContainer>
           <GitHubButton href={Bio.github} target="_blank">
