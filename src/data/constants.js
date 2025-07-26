@@ -104,37 +104,10 @@ export const skills = [
         image:
           "https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg",
       },
-      //   {
-      //     name: "Firebase",
-      //     image: "https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg",
-      //   },
+     
     ],
   },
-  //   {
-  //     title: "Android",
-  //     skills: [
-  //       {
-  //         name: "Java",
-  //         image:
-  //           "https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg",
-  //       },
-  //       {
-  //         name: "Kotlin",
-  //         image:
-  //           "https://www.vectorlogo.zone/logos/kotlinlang/kotlinlang-icon.svg",
-  //       },
-  //       {
-  //         name: "XML",
-  //         image:
-  //           "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBMw6_RdwKQ9bDFfnKDX1iwMl4bVJEvd9PP53XuIw&s",
-  //       },
-  //       {
-  //         name: "Android Studio",
-  //         image:
-  //           "https://developer.android.com/static/studio/images/new-studio-logo-1_1920.png",
-  //       },
-  //     ],
-  //   },
+
   {
     title: "Others",
     skills: [
@@ -290,20 +263,7 @@ export const projects = [
     category: "FullStack App",
     github: "https://github.com/rdx23/Jobify",
     webapp: "https://jobify-app-g41j.onrender.com",
-    // member: [
-    //   {
-    //     name: "Rishav Chanda",
-    //     img: "https://avatars.githubusercontent.com/u/64485885?v=4",
-    //     linkedin: "https://www.linkedin.com/in/rishav-chanda-b89a791b3/",
-    //     github: "https://github.com/rishavchanda/",
-    //   },
-    //   {
-    //     name: "Upasana Chaudhuri",
-    //     img: "https://avatars.githubusercontent.com/u/100614635?v=4",
-    //     linkedin: "https://www.linkedin.com/in/upasana-chaudhuri-2a2bb5231/",
-    //     github: "https://github.com/upasana0710",
-    //   },
-    // ],
+    
   },
   {
     id: 1,
