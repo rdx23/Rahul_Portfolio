@@ -316,19 +316,19 @@ export const projects = [
     github: "",
     webapp: "",
   },
-  // {
-  //   id: 2,
-  //   title: "",
-  //   date: "Jan 2023 - Mar 2023",
-  //   description:
-  //     "",
-  //   image:
-  //     "",
-  //   tags: ["Python", "Keras", "TensorFlow", "VGG16", "Pickle", "React"],
-  //   category: "",
-  //   github: "",
-  //   webapp: "",
-  // },
+  {
+    id: 2,
+    title: "Weather-Forecast App",
+    date: "Jan 2023 - Mar 2023",
+    description:
+      "The Weather Forecast App is a simple web application that provides users with real-time weather information based on their location or a city name. Built using HTML, CSS, and JavaScript, this application fetches weather data from a public API and displays it in a user-friendly format.",
+    image:
+      "https://github.com/user-attachments/assets/d5ab7e46-baef-4747-aa16-b135a1709467",
+    tags: ["Html", "CSS", "Javascript","API"],
+    category: "Frontend App",
+    github: "https://github.com/rdx23/Weather_Forecast",
+    webapp: "https://weather-forecast-opal-phi.vercel.app/",
+  },
   //
 ];
 
