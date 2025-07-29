@@ -239,7 +239,7 @@ export const projects = [
       "Node Js",
       "Express Js",
     ],
-    category: "FullStack App",
+    category: "fullstack app",
     github: "https://github.com/rdx23/Travo-App",
     webapp: "https://travo-app.onrender.com",
   },
@@ -260,7 +260,7 @@ export const projects = [
       "Shadcn",
       "Tailwind CSS",
     ],
-    category: "FullStack App",
+    category: "fullstack app",
     github: "https://github.com/rdx23/Jobify",
     webapp: "https://jobify-app-g41j.onrender.com",
     
@@ -285,7 +285,7 @@ export const projects = [
     image:
       "https://github.com/user-attachments/assets/d5ab7e46-baef-4747-aa16-b135a1709467",
     tags: ["Html", "CSS", "Javascript","API"],
-    category: "Frontend App",
+    category: "frontend app",
     github: "https://github.com/rdx23/Weather_Forecast",
     webapp: "https://weather-forecast-opal-phi.vercel.app/",
   },
