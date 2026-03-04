@@ -267,7 +267,8 @@ export const projects = [
     date: "March 2025 - April 2025",
     description:
       "Zoomly is a full-stack real-time video conferencing web application that allows users to create and join secure video meetings instantly. It provides seamless audio/video communication with a clean, responsive UI built for both desktop and mobile devices.",
-    image: "src/images/Zoomly.png",
+    image:
+      "https://github.com/rdx23/Rahul_Portfolio/raw/main/src/images/Zoomly.png",
     tags: [
       "React Js",
       "MongoDb",
