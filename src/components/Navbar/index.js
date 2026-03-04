@@ -25,17 +25,17 @@ const Navbar = ({ darkMode, setDarkMode }) => {
     <Nav>
       <NavbarContainer>
         <NavLogo to="/">
-          <a
+          <div
             style={{
               display: "flex",
               alignItems: "center",
               color: "white",
-              marginBottom: "20px;",
+              marginBottom: "20px",
               cursor: "pointer",
             }}
           >
             <DiCssdeck size="3rem" /> <Span>Portfolio</Span>
-          </a>
+          </div>
         </NavLogo>
         <MobileIcon>
           <FaBars
@@ -52,10 +52,12 @@ const Navbar = ({ darkMode, setDarkMode }) => {
           <NavLink href="#education">Education</NavLink>
         </NavItems>
 
-        
-
         <ButtonContainer>
-          <GitHubButton href={Bio.github} target="_blank">
+          <GitHubButton
+            href={Bio.github}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             Github Profile
           </GitHubButton>
         </ButtonContainer>
