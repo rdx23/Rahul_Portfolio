@@ -34,49 +34,49 @@ const Projects = ({ openModal, setOpenModal }) => {
             </ToggleButton>
           )}
           <Divider />
-          {toggle === "web app" ? (
+          {toggle === "FullStack App" ? (
             <ToggleButton
               active
-              value="web app"
-              onClick={() => setToggle("web app")}
+              value="FullStack App"
+              onClick={() => setToggle("FullStack App")}
             >
               FullStack App
             </ToggleButton>
           ) : (
-            <ToggleButton value="web app" onClick={() => setToggle("web app")}>
+            <ToggleButton value="FullStack App" onClick={() => setToggle("FullStack App")}>
               FullStack App
             </ToggleButton>
           )}
           <Divider />
-          {toggle === "android app" ? (
+          {toggle === "Frontend App" ? (
             <ToggleButton
               active
-              value="android app"
-              onClick={() => setToggle("android app")}
+              value="Frontend App"
+              onClick={() => setToggle("Frontend App")}
             >
               Frontend App
             </ToggleButton>
           ) : (
             <ToggleButton
-              value="android app"
-              onClick={() => setToggle("android app")}
+              value="Frontend App"
+              onClick={() => setToggle("Frontend App")}
             >
               Frontend App
             </ToggleButton>
           )}
           <Divider />
-          {toggle === "machine learning" ? (
+          {toggle === "Backend App" ? (
             <ToggleButton
               active
-              value="machine learning"
-              onClick={() => setToggle("machine learning")}
+              value="Backend App"
+              onClick={() => setToggle("Backend App")}
             >
               Backend App
             </ToggleButton>
           ) : (
             <ToggleButton
-              value="machine learning"
-              onClick={() => setToggle("machine learning")}
+              value="Backend App"
+              onClick={() => setToggle("Backend App")}
             >
               Backend App
             </ToggleButton>
